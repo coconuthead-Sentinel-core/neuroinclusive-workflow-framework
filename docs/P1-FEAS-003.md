@@ -7,7 +7,7 @@
 | Document ID | P1-FEAS-003 |
 | Version | 1.0 |
 | Date | 2026-03-17 |
-| Author | Shannon Brian Kelly + Claude AI (Archivist of Wisdom) |
+| Author | Shannon Brian Kelley + Claude AI (Archivist of Wisdom) |
 | Status | COMPLETE |
 
 ## Feasibility Matrix

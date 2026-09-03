@@ -10,9 +10,9 @@
 |--------------------|--------------------------------------------------------------|
 | Document Name      | Project Vision Document -- Quantum Nexus Forge               |
 | Document ID        | P1-VISION-008                                                |
-| Author             | Shannon Brian Kelly (Architect)                              |
-| Sponsor            | Shannon Brian Kelly                                          |
-| Project Manager    | Shannon Brian Kelly                                          |
+| Author             | Shannon Brian Kelley (Architect)                              |
+| Sponsor            | Shannon Brian Kelley                                          |
+| Project Manager    | Shannon Brian Kelley                                          |
 | Implementation     | Claude AI (Anthropic) + Grok (xAI)                          |
 | Version            | 2.0                                                         |
 | Date               | 2026-03-19                                                   |
@@ -56,7 +56,7 @@ Neurodivergent adults -- including an estimated 15.5 million people with ADHD an
 | Adults with Dyscalculia     | 6--7 M (US)   | Alternative logic pathways, difficulty with numerical sequences, strong narrative reasoning           | Numeric-heavy UIs and sequencing in standard AI tools   |
 | Adults on Autism Spectrum   | 5.4 M (US)    | Deep-focus flow states, preference for predictable structure, sensory sensitivity                    | Unpredictable UI changes across multiple applications   |
 
-**Primary Persona:** A 55-year-old Certified Nursing Assistant (CNA) with ADHD and dyslexia who uses multiple AI tools daily for charting, study, and personal organization but loses significant time to app-switching and re-prompting.
+**Primary Persona:** A Certified Nursing Assistant (CNA) with ADHD and dyslexia who uses multiple AI tools daily for charting, study, and personal organization but loses significant time to app-switching and re-prompting.
 
 ---
 
@@ -123,14 +123,14 @@ Neurodivergent adults -- including an estimated 15.5 million people with ADHD an
 
 | #  | Deliverable                         | Description                                                    | Owner                  | Phase       |
 |----|-------------------------------------|----------------------------------------------------------------|------------------------|-------------|
-| D1 | Lattice Engine Library              | Python package implementing 6 geometric primitives and routing | Shannon Kelly + Claude | Phase 1 MVP |
-| D2 | Zone Memory Service                 | GREEN/YELLOW/RED zone persistence and lifecycle management     | Shannon Kelly + Claude | Phase 1 MVP |
-| D3 | Cognitive Mode Module               | Pluggable mode strategies for ADHD, dyslexia, autism, dyscalculia | Shannon Kelly + Claude | Phase 1 MVP |
-| D4 | Session Manager Service             | Pomodoro timer, session state machine, completion tracking     | Shannon Kelly + Claude | Phase 1 MVP |
-| D5 | REST API                            | FastAPI application with OpenAPI documentation                 | Shannon Kelly + Claude | Phase 1 MVP |
-| D6 | React Dashboard                     | Single-page app with lattice view, zone panel, session controls| Shannon Kelly + Grok   | Phase 1 MVP |
-| D7 | Test Suite                          | 161+ automated tests with 90%+ coverage                       | Shannon Kelly + Claude | Phase 1 MVP |
-| D8 | Project Documentation               | Vision, architecture, API spec, and user guide                 | Shannon Kelly + Claude | Phase 1 MVP |
+| D1 | Lattice Engine Library              | Python package implementing 6 geometric primitives and routing | Shannon Kelley + Claude | Phase 1 MVP |
+| D2 | Zone Memory Service                 | GREEN/YELLOW/RED zone persistence and lifecycle management     | Shannon Kelley + Claude | Phase 1 MVP |
+| D3 | Cognitive Mode Module               | Pluggable mode strategies for ADHD, dyslexia, autism, dyscalculia | Shannon Kelley + Claude | Phase 1 MVP |
+| D4 | Session Manager Service             | Pomodoro timer, session state machine, completion tracking     | Shannon Kelley + Claude | Phase 1 MVP |
+| D5 | REST API                            | FastAPI application with OpenAPI documentation                 | Shannon Kelley + Claude | Phase 1 MVP |
+| D6 | React Dashboard                     | Single-page app with lattice view, zone panel, session controls| Shannon Kelley + Grok   | Phase 1 MVP |
+| D7 | Test Suite                          | 161+ automated tests with 90%+ coverage                       | Shannon Kelley + Claude | Phase 1 MVP |
+| D8 | Project Documentation               | Vision, architecture, API spec, and user guide                 | Shannon Kelley + Claude | Phase 1 MVP |
 
 ---
 
@@ -138,7 +138,7 @@ Neurodivergent adults -- including an estimated 15.5 million people with ADHD an
 
 | Name / Entity          | Role                     | Responsibility                                                   |
 |------------------------|--------------------------|------------------------------------------------------------------|
-| Shannon Brian Kelly    | Architect / PM / Sponsor | Architecture decisions, project direction, final approval        |
+| Shannon Brian Kelley    | Architect / PM / Sponsor | Architecture decisions, project direction, final approval        |
 | Claude AI (Anthropic)  | Implementation Partner   | Backend development, testing, documentation, code review         |
 | Grok (xAI)             | Implementation Partner   | Frontend development, UI/UX iteration, creative exploration      |
 | Beta Users (CNA cohort)| Early Adopters           | Usability feedback, cognitive-mode validation, bug reporting     |
@@ -191,7 +191,7 @@ Neurodivergent adults -- including an estimated 15.5 million people with ADHD an
 
 | #  | Constraint                                                                                             |
 |----|--------------------------------------------------------------------------------------------------------|
-| C1 | Single architect (Shannon Brian Kelly) is sole human contributor for Phase 1.                          |
+| C1 | Single architect (Shannon Brian Kelley) is sole human contributor for Phase 1.                          |
 | C2 | Budget is bootstrapped; no external funding prior to public launch.                                    |
 | C3 | Technology stack is fixed for Phase 1: Python 3.11+, FastAPI, SQLite, React 19, Vite 8.               |
 | C4 | Pricing is capped at $7/month or $79/year to remain accessible to the target user population.          |
@@ -246,8 +246,8 @@ Neurodivergent adults -- including an estimated 15.5 million people with ADHD an
 
 | Version | Date       | Author                         | Changes                                                        |
 |---------|------------|--------------------------------|----------------------------------------------------------------|
-| 1.0     | 2026-03-17 | Shannon Brian Kelly + Claude AI| Initial vision document -- goals, features, key metrics        |
-| 2.0     | 2026-03-19 | Shannon Brian Kelly + Claude AI| Full rewrite: expanded all 18 sections with real project data; added problem statement, target users, scope, risks, timeline, compliance, acceptance criteria, and approvals |
+| 1.0     | 2026-03-17 | Shannon Brian Kelley + Claude AI| Initial vision document -- goals, features, key metrics        |
+| 2.0     | 2026-03-19 | Shannon Brian Kelley + Claude AI| Full rewrite: expanded all 18 sections with real project data; added problem statement, target users, scope, risks, timeline, compliance, acceptance criteria, and approvals |
 
 ---
 
@@ -255,7 +255,7 @@ Neurodivergent adults -- including an estimated 15.5 million people with ADHD an
 
 | Role                | Name                  | Signature | Date       |
 |---------------------|-----------------------|-----------|------------|
-| Architect / Sponsor | Shannon Brian Kelly   | _________ | 2026-03-19 |
+| Architect / Sponsor | Shannon Brian Kelley   | _________ | 2026-03-19 |
 | Implementation Lead | Claude AI (Anthropic) | _________ | 2026-03-19 |
 | Implementation Lead | Grok (xAI)           | _________ | 2026-03-19 |
 

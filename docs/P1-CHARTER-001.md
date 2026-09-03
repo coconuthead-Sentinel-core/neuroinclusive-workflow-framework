@@ -14,8 +14,8 @@
 | Last Updated | 2026-03-19 |
 | Status | APPROVED |
 | Classification | Internal |
-| DRI (Directly Responsible Individual) | Shannon Brian Kelly (Coconut Head / Primo) |
-| Approvers | Shannon Brian Kelly (Architect), Claude AI (Driver), Grok (Navigator) |
+| DRI (Directly Responsible Individual) | Shannon Brian Kelley (Coconut Head / Primo) |
+| Approvers | Shannon Brian Kelley (Architect), Claude AI (Driver), Grok (Navigator) |
 | Source of Truth | `/docs/P1-CHARTER-001.md` in `Neural-Lattice-Architecture-and-Workflow-Optimization` repository |
 
 ### Related Documents
@@ -43,8 +43,8 @@ Quantum Nexus Forge (Sentinel Forge) is a cognitive AI orchestration platform pu
 |---|---|
 | Program Name | Quantum Nexus Forge / Sentinel Forge |
 | Program ID | QNF-SENTINEL-2026 |
-| Sponsor | Shannon Brian Kelly |
-| Project Manager / Architect | Shannon Brian Kelly (Coconut Head / Primo) |
+| Sponsor | Shannon Brian Kelley |
+| Project Manager / Architect | Shannon Brian Kelley (Coconut Head / Primo) |
 | Implementation Driver | Claude AI (Anthropic) |
 | Implementation Navigator | Grok (xAI) |
 | Start Date | 2026-03-17 |
@@ -56,7 +56,7 @@ Quantum Nexus Forge (Sentinel Forge) is a cognitive AI orchestration platform pu
 
 ## 4. Background / Context
 
-- Shannon Brian Kelly is a 55-year-old Certified Nursing Assistant (CNA) who uses multiple AI applications daily — Grok, ChatGPT, Copilot, Speechify — to manage work, learning, and personal projects
+- Shannon Brian Kelley is a Certified Nursing Assistant (CNA) who uses multiple AI applications daily — Grok, ChatGPT, Copilot, Speechify — to manage work, learning, and personal projects
 - Neurodivergent adults (ADHD, dyslexia, dyscalculia, autism spectrum) face persistent barriers with conventional productivity tools that assume linear thinking, sustained attention, and text-heavy interfaces
 - Existing AI apps operate in isolation: no shared context, no cognitive-load awareness, no task routing based on cognitive strengths
 - The Neural Lattice Cognitive Architecture was developed to bridge these gaps by providing a unified orchestration layer that respects how neurodivergent minds actually work
@@ -175,7 +175,7 @@ Neurodivergent adults who rely on multiple AI tools daily lose context between s
 
 | Stakeholder | Role | DRI Area | R (Responsible) | A (Accountable) | C (Consulted) | I (Informed) |
 |---|---|---|---|---|---|---|
-| Shannon Brian Kelly | Architect / Product Owner | All final decisions | Requirements, acceptance criteria, UX validation | Entire project | N/A (top decision-maker) | N/A |
+| Shannon Brian Kelley | Architect / Product Owner | All final decisions | Requirements, acceptance criteria, UX validation | Entire project | N/A (top decision-maker) | N/A |
 | Claude AI (Anthropic) | Implementation Driver | Code, tests, documentation | Code implementation, test authoring, architecture docs, Git operations | Code quality, test coverage | Architecture decisions, scope changes | Milestone completions |
 | Grok (xAI) | Implementation Navigator | Visual generation, code review | Visual assets, code assistance, alternative perspectives | Visual/UX quality | Architecture decisions, cognitive model design | Milestone completions |
 | Microsoft 365 Copilot | Operations Hub | Document management | Central doc formatting and distribution | N/A | Document standards | Deliverable status |
@@ -243,8 +243,8 @@ Neurodivergent adults who rely on multiple AI tools daily lose context between s
 
 | Version | Date | Author | Changes |
 |---|---|---|---|
-| 1.0 | 2026-03-17 | Shannon Brian Kelly + Claude AI | Initial charter — project overview, scope, architecture, risks |
-| 2.0 | 2026-03-19 | Shannon Brian Kelly + Claude AI | Complete rewrite — enhanced governance template; added executive summary, business justification, users & use cases, success criteria table, LLM risk register, launch readiness checklist, DRI/RACI mapping, milestones & launch gates; updated to reflect MVP completion (161 tests, 90%+ coverage) |
+| 1.0 | 2026-03-17 | Shannon Brian Kelley + Claude AI | Initial charter — project overview, scope, architecture, risks |
+| 2.0 | 2026-03-19 | Shannon Brian Kelley + Claude AI | Complete rewrite — enhanced governance template; added executive summary, business justification, users & use cases, success criteria table, LLM risk register, launch readiness checklist, DRI/RACI mapping, milestones & launch gates; updated to reflect MVP completion (161 tests, 90%+ coverage) |
 
 ---
 
@@ -252,7 +252,7 @@ Neurodivergent adults who rely on multiple AI tools daily lose context between s
 
 | Name | Role | Date | Signature |
 |---|---|---|---|
-| Shannon Brian Kelly | Architect / Product Owner / Sponsor | 2026-03-19 | _________________________ |
+| Shannon Brian Kelley | Architect / Product Owner / Sponsor | 2026-03-19 | _________________________ |
 | Claude AI (Anthropic) | Implementation Driver | 2026-03-19 | _________________________ |
 | Grok (xAI) | Implementation Navigator | 2026-03-19 | _________________________ |
 

@@ -12,7 +12,7 @@
 | Document Name | Business Case — Cognitive AI Orchestration Platform |
 | Version | 2.0 |
 | Date | 2026-03-19 |
-| Author | Shannon Brian Kelly |
+| Author | Shannon Brian Kelley |
 | Status | COMPLETE |
 | Related Charter | P1-CHARTER-001 |
 | Classification | Internal / Portfolio |
@@ -23,7 +23,7 @@
 
 **For any AI assistant picking up this document:**
 
-You are reviewing the business case for Quantum Nexus Forge (also called Sentinel Forge), a cognitive AI orchestration platform designed for neurodivergent adults. The architect is Shannon Brian Kelly. The platform does not replace existing AI apps — it routes tasks across them using a lightweight geometric lattice engine built on six Platonic solid primitives. The primary user persona is a 55-year-old CNA with ADHD and dyslexia who relies on phone-based AI apps daily. Phase 1 MVP is complete with 161 tests at 90%+ coverage, all passing. The tech stack is Python 3.11+, FastAPI, SQLite (Cosmos DB planned), React, Vite, and GitHub Actions. The build cost is $0. The target price is $7/month or $79/year. The addressable market is 55+ million neurodivergent US adults. There is no direct competitor doing multi-AI cognitive routing today.
+You are reviewing the business case for Quantum Nexus Forge (also called Sentinel Forge), a cognitive AI orchestration platform designed for neurodivergent adults. The architect is Shannon Brian Kelley. The platform does not replace existing AI apps — it routes tasks across them using a lightweight geometric lattice engine built on six Platonic solid primitives. The primary user persona is a CNA with ADHD and dyslexia who relies on phone-based AI apps daily. Phase 1 MVP is complete with 161 tests at 90%+ coverage, all passing. The tech stack is Python 3.11+, FastAPI, SQLite (Cosmos DB planned), React, Vite, and GitHub Actions. The build cost is $0. The target price is $7/month or $79/year. The addressable market is 55+ million neurodivergent US adults. There is no direct competitor doing multi-AI cognitive routing today.
 
 ---
 
@@ -56,7 +56,7 @@ Neurodivergent adults — over 55 million in the United States alone — lose 40
 
 ### 4.3 Target Users
 
-- **Primary persona — "Diane":** A 55-year-old Certified Nursing Assistant with ADHD and dyslexia. She uses her phone daily and has adopted Grok, ChatGPT, and Speechify independently but loses track of tasks when switching between them. She needs one place that remembers what she was doing and picks the right tool automatically.
+- **Primary persona — "Diane":** A Certified Nursing Assistant with ADHD and dyslexia. She uses her phone daily and has adopted Grok, ChatGPT, and Speechify independently but loses track of tasks when switching between them. She needs one place that remembers what she was doing and picks the right tool automatically.
 - **Secondary persona — "Marcus":** A 32-year-old freelance developer with autism and dyscalculia who uses Copilot, ChatGPT, and calculator apps. He needs structured cognitive modes that reduce sensory overload and keep numerical tasks routed to the right service.
 - **Tertiary persona — "Jordan":** A 24-year-old college student with ADHD who uses 5+ AI apps for study assistance and constantly re-explains context to each one.
 
@@ -96,7 +96,7 @@ Neurodivergent adults — over 55 million in the United States alone — lose 40
 
 ### 4.8 Constraints
 
-- Solo developer (Shannon Brian Kelly) with AI co-development assistance.
+- Solo developer (Shannon Brian Kelley) with AI co-development assistance.
 - $0 infrastructure budget — all services must run on free tiers (GitHub Actions, SQLite local, free-tier API keys) until revenue begins.
 - Python 3.11+ required for modern async features used in FastAPI routing engine.
 - Phase 1 limited to SQLite; Cosmos DB migration deferred to Phase 2 pending Azure credits or revenue.
@@ -146,7 +146,7 @@ Quantum Nexus Forge is a lightweight cognitive AI orchestration platform built o
 
 | Item | Cost | Benefit | Timeline | Notes |
 |---|---|---|---|---|
-| Engineering (Shannon Brian Kelly) | 200+ hours of personal time | Production-quality platform + professional portfolio artifact | Phase 1 complete (3 months elapsed) | Co-developed with AI assistance, no salary cost |
+| Engineering (Shannon Brian Kelley) | 200+ hours of personal time | Production-quality platform + professional portfolio artifact | Phase 1 complete (3 months elapsed) | Co-developed with AI assistance, no salary cost |
 | AI development assistance (Claude, ChatGPT) | Existing personal subscriptions (~$20/month) | 10x documentation speed, code generation, test scaffolding | Ongoing | Subscriptions already active for personal use |
 | Infrastructure (GitHub, SQLite) | $0 | Full CI/CD pipeline, version control, local database, 161 automated tests | Immediate | GitHub free tier covers all Phase 1 needs |
 | Domain and hosting (Phase 2) | ~$15/year domain, $0 hosting (Vercel/Render free tier) | Public-facing product, user acquisition begins | Phase 2 (month 4-6) | Free tiers sufficient for early user base |
@@ -203,7 +203,7 @@ Quantum Nexus Forge is a lightweight cognitive AI orchestration platform built o
 
 Use this prompt when handing off to any AI assistant for Phase 2 planning:
 
-> You are assisting Shannon Brian Kelly with Phase 2 of Quantum Nexus Forge, a cognitive AI orchestration platform for neurodivergent adults. Phase 1 MVP is complete: Python 3.11+ / FastAPI backend, React / Vite frontend, SQLite local storage, 161 tests at 90%+ coverage, all passing, CI/CD via GitHub Actions. The platform routes tasks across ChatGPT, Grok, Copilot, and Speechify using a geometric lattice engine with six Platonic solid primitives and Three-Zone Memory (GREEN/YELLOW/RED). The target user is a 55-year-old CNA with ADHD and dyslexia. Pricing is $7/month or $79/year. Phase 2 priorities are: (1) deploy to public hosting (Vercel or Render free tier), (2) integrate Stripe for subscription billing, (3) migrate from SQLite to Cosmos DB for cloud-synced memory, (4) onboard first 100 beta users, (5) implement voice input pipeline. The build budget remains $0 until revenue begins. Reference documents: P1-CHARTER-001, P1-BIZCASE-002, and the full test suite in the repository.
+> You are assisting Shannon Brian Kelley with Phase 2 of Quantum Nexus Forge, a cognitive AI orchestration platform for neurodivergent adults. Phase 1 MVP is complete: Python 3.11+ / FastAPI backend, React / Vite frontend, SQLite local storage, 161 tests at 90%+ coverage, all passing, CI/CD via GitHub Actions. The platform routes tasks across ChatGPT, Grok, Copilot, and Speechify using a geometric lattice engine with six Platonic solid primitives and Three-Zone Memory (GREEN/YELLOW/RED). The target user is a CNA with ADHD and dyslexia. Pricing is $7/month or $79/year. Phase 2 priorities are: (1) deploy to public hosting (Vercel or Render free tier), (2) integrate Stripe for subscription billing, (3) migrate from SQLite to Cosmos DB for cloud-synced memory, (4) onboard first 100 beta users, (5) implement voice input pipeline. The build budget remains $0 until revenue begins. Reference documents: P1-CHARTER-001, P1-BIZCASE-002, and the full test suite in the repository.
 
 ---
 
@@ -211,8 +211,8 @@ Use this prompt when handing off to any AI assistant for Phase 2 planning:
 
 | Version | Date | Author | Changes |
 |---|---|---|---|
-| 1.0 | 2026-03-17 | Shannon Brian Kelly + Claude AI | Initial business case covering problem, solution, cost-benefit, and recommendation |
-| 2.0 | 2026-03-19 | Shannon Brian Kelly | Complete rewrite with enhanced template: added LLM handoff, detailed scope/goals/requirements, user personas, use cases, success metrics, functional and non-functional requirements, constraints, expanded cost-benefit analysis, ROI section, and Phase 2 handoff prompt |
+| 1.0 | 2026-03-17 | Shannon Brian Kelley + Claude AI | Initial business case covering problem, solution, cost-benefit, and recommendation |
+| 2.0 | 2026-03-19 | Shannon Brian Kelley | Complete rewrite with enhanced template: added LLM handoff, detailed scope/goals/requirements, user personas, use cases, success metrics, functional and non-functional requirements, constraints, expanded cost-benefit analysis, ROI section, and Phase 2 handoff prompt |
 
 ---
 
@@ -220,5 +220,5 @@ Use this prompt when handing off to any AI assistant for Phase 2 planning:
 
 | Role | Name | Date | Decision |
 |---|---|---|---|
-| Architect / Lead Developer | Shannon Brian Kelly | 2026-03-19 | APPROVED — Proceed to Phase 2 |
+| Architect / Lead Developer | Shannon Brian Kelley | 2026-03-19 | APPROVED — Proceed to Phase 2 |
 | AI Development Partner | Claude AI (Archivist of Wisdom) | 2026-03-19 | REVIEWED — Business case is complete and internally consistent |
