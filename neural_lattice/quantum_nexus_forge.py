@@ -2,26 +2,24 @@
 # Date: August 10, 2025
 # Version: 6.0.0 - HYPHENATOR RULE OF COGNITIVE PRIMITIVES
 
-import json
-import time
-import uuid
-import random
 import hashlib
-import threading
-from datetime import datetime, timedelta
-from collections import deque, defaultdict
-from typing import Dict, List, Tuple, Optional, Any
-from enum import Enum
-from dataclasses import dataclass, field
 import math
-
+import threading
+import uuid
+from collections import defaultdict, deque
+from dataclasses import dataclass, field
+from datetime import datetime
+from enum import Enum
+from typing import Any, Dict, List, Optional
 
 # ====================================
 # ENHANCED COGNITIVE PRIMITIVES
 # ====================================
 
+
 class CognitivePrimitiveType(Enum):
     """Enhanced geometric primitives for cognitive lattice operations."""
+
     TETRAHEDRON = ("tetrahedron_transform", 4, 256.0, "triangulation")
     CUBE = ("cube_stabilize", 6, 639.0, "stabilization")
     OCTAHEDRON = ("octahedron_process", 8, 512.0, "processing")
@@ -39,6 +37,7 @@ class CognitivePrimitiveType(Enum):
 @dataclass
 class CognitiveNode:
     """A node in the cognitive lattice representing a primitive operation."""
+
     node_id: str = field(default_factory=lambda: str(uuid.uuid4()))
     primitive_type: CognitivePrimitiveType = CognitivePrimitiveType.TETRAHEDRON
     energy: float = 1.0
@@ -56,6 +55,7 @@ class CognitiveNode:
 @dataclass
 class LatticeEdge:
     """An edge connecting two cognitive nodes with a weighted relationship."""
+
     source_id: str
     target_id: str
     weight: float = 1.0
@@ -66,6 +66,7 @@ class LatticeEdge:
 # ====================================
 # QUANTUM NEXUS FORGE ENGINE
 # ====================================
+
 
 class QuantumNexusForge:
     """
@@ -87,7 +88,9 @@ class QuantumNexusForge:
         self.created_at = datetime.utcnow()
         self.cycle_count = 0
 
-    def add_node(self, primitive_type: CognitivePrimitiveType, energy: float = 1.0) -> CognitiveNode:
+    def add_node(
+        self, primitive_type: CognitivePrimitiveType, energy: float = 1.0
+    ) -> CognitiveNode:
         """Add a new cognitive node to the lattice."""
         node = CognitiveNode(
             primitive_type=primitive_type,
@@ -98,7 +101,9 @@ class QuantumNexusForge:
             self.energy_map[node.node_id] = energy
         return node
 
-    def connect_nodes(self, source_id: str, target_id: str, weight: float = 1.0) -> Optional[LatticeEdge]:
+    def connect_nodes(
+        self, source_id: str, target_id: str, weight: float = 1.0
+    ) -> Optional[LatticeEdge]:
         """Create a resonance edge between two nodes."""
         if source_id not in self.nodes or target_id not in self.nodes:
             return None
@@ -163,7 +168,8 @@ class QuantumNexusForge:
         return {
             "vertices": 4,
             "phi_factor": phi * resonance,
-            "energy_delta": node.energy * math.sin(resonance / node.primitive_type.resonance * math.pi),
+            "energy_delta": node.energy
+            * math.sin(resonance / node.primitive_type.resonance * math.pi),
         }
 
     def _stabilize(self, node: CognitiveNode, resonance: float) -> Dict[str, float]:
@@ -171,7 +177,8 @@ class QuantumNexusForge:
         return {
             "vertices": 8,
             "stability_index": resonance / 639.0,
-            "energy_delta": node.energy * math.cos(resonance / node.primitive_type.resonance * math.pi / 2),
+            "energy_delta": node.energy
+            * math.cos(resonance / node.primitive_type.resonance * math.pi / 2),
         }
 
     def _process_octahedral(self, node: CognitiveNode, resonance: float) -> Dict[str, float]:
@@ -214,7 +221,6 @@ class QuantumNexusForge:
         for edge in self.edges:
             if edge.source_id in self.nodes and edge.target_id in self.nodes:
                 source = self.nodes[edge.source_id]
-                target = self.nodes[edge.target_id]
                 transfer = source.energy * edge.weight * 0.1
                 deltas[edge.source_id] -= transfer
                 deltas[edge.target_id] += transfer
